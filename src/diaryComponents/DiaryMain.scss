@@ -1,0 +1,15 @@
+.diaryMainContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 800px;
+  .diaryCalendarBox {
+    height: 100%;
+    width: 100%;
+    border: 1px solid gray;
+    margin-top: 12px;
+  }
+}

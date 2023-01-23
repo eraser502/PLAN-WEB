@@ -1,0 +1,19 @@
+.diaryViewMainContainer{
+    display: flex;
+    width: calc(100% - 24px);
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+    .viewTopButtonBox{
+        margin-bottom: 12px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .viewerBox{
+        width: calc(100% - 16px);
+        height: 600px;
+        padding: 8px;
+        border: 1px solid gray;
+    }
+}

@@ -1,0 +1,24 @@
+.todoMainContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 800px;
+  .categorySettingButtonBox {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+  }
+  .todoCalendarBox {
+    // max-width: 400px;
+    border: 1px solid gray;
+    margin-top: 12px;
+  }
+  .todoMainContentBox {
+    display: flex;
+    width: 100%;
+    // max-width: 400px;
+    margin-top: 12px;
+  }
+}

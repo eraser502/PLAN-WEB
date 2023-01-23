@@ -1,0 +1,28 @@
+.todoTextBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  .todoInputText {
+    // font-size: 0.9rem;
+    // width: calc(100% - 48px);
+    // word-break: break-all;
+    border: 1px solid #bebebe;
+    outline: none;
+    width: 100%;
+    word-break: break-all;
+    font-size: 0.9rem;
+  }
+  .todoModifyEndButton {
+    // width: 56px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--button-color);
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+}

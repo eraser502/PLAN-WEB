@@ -1,0 +1,21 @@
+.input {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+
+  .todoInputText {
+    outline: none;
+    border: 1px solid #bebebe;
+    word-break: break-all;
+    width: 100%;
+    // color:var(--text-color);
+  }
+  .todoAddButton {
+    border: none;
+    width: 60px;
+    border-radius: 12px;
+    background-color: var(--button-color);
+    color:var(--text-color);
+  }
+}

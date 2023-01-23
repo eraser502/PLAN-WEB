@@ -1,0 +1,39 @@
+.headerBox {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-color);
+    margin-bottom: 20px;
+  .topMainButton {
+    width: 60px;
+    height: 60px;
+    padding: 20px 0px;
+  }
+  .signoutButton{
+    font-size: 0.9rem;
+    position: absolute;
+    right:16px;
+    top: 60px;
+    font-weight: 600;
+  }
+  .topMenuButtonBox {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    gap:4px;
+    border-top: 1px solid #9f9f9f;
+    border-bottom: 1px solid #9f9f9f;
+    .tododiaryMenuButton{
+        width: 120px;
+        height: 30px;
+        border: none;
+        font-size: 16px;
+        border-radius: 8px;
+        background-color: var(--button-color);
+        color: var(--text-color);
+    }
+  }
+}

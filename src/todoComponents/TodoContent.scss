@@ -1,0 +1,21 @@
+.todoContentBox{
+    .todoTextBox {
+        width: 100%;
+        display: flex;
+        gap: 4px;
+        border-bottom: 1px solid #eaeaea;
+        padding: 4px 0;
+        align-items: center;
+        justify-content: space-between;
+  
+        .todoText {
+          font-size: 0.9rem;
+          width: calc(100% - 48px);
+          word-break: break-all;
+        }
+        .checked{
+            text-decoration: line-through;
+            color: #6c6c6c;
+        }
+      }
+}
